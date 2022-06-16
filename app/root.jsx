@@ -1,4 +1,4 @@
-import { Outlet } from "remix";
+import { Outlet, LiveReload } from "remix";
 
 export default function App() {
   return (
@@ -7,6 +7,7 @@ export default function App() {
         <title>My Remix Blog</title>
         <body>
           <Outlet />
+          {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
         </body>
       </head>
     </html>
