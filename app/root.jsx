@@ -18,7 +18,6 @@ export default function App() {
       <Layout>
         <Outlet />
       </Layout>
-      <Outlet />
     </Document>
   );
 }
