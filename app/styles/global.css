@@ -67,6 +67,13 @@ p {
   border-bottom: 1px solid #333;
 }
 
+.nav li a {
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 10px;
+  background-color: aqua;
+}
+
 .btn {
   display: inline-block;
   background: #000;
