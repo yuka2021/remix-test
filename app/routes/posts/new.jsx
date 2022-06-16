@@ -8,7 +8,7 @@ export const action = async ({ request }) => {
 
   // @todo - sumit to database
 
-  return redirect("/posts");
+  // return redirect("/posts");
 };
 
 const NewPost = () => {

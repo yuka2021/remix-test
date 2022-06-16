@@ -58,3 +58,14 @@ function Layout({ children }) {
     </>
   );
 }
+
+export function ErrorBoundary({ error }) {
+  return (
+    <Document>
+      <Layout>
+        <h1>Error: Sorry something went wrong...</h1>
+        <p>{error.message}</p>
+      </Layout>
+    </Document>
+  );
+}
